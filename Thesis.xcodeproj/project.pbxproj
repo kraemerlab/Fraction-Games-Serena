@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		505005E90E94316E4415334D /* Pods_Thesis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 066912202AF9EB1BFF22F17C /* Pods_Thesis.framework */; };
+		6EC7A9C920ABE1A900485315 /* Mathlete-Bulky.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7A9C820ABE1A900485315 /* Mathlete-Bulky.otf */; };
+		6EC7A9CD20ABE2A700485315 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EC7A9CC20ABE2A700485315 /* GoogleService-Info.plist */; };
 		F417C8E21D9C3367000FFA19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F417C8E11D9C3367000FFA19 /* AppDelegate.swift */; };
 		F417C8E41D9C3367000FFA19 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F417C8E31D9C3367000FFA19 /* StartViewController.swift */; };
 		F417C8E71D9C3367000FFA19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F417C8E51D9C3367000FFA19 /* Main.storyboard */; };
@@ -20,12 +22,7 @@
 		F433FF321D9CB4CC0050ECB7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = F433FF311D9CB4CC0050ECB7 /* Food.swift */; };
 		F44D6DB51D9C9C660088FDA6 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D6DB41D9C9C660088FDA6 /* SceneViewController.swift */; };
 		F44D6DB91D9CA2820088FDA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D6DB81D9CA2820088FDA6 /* Constants.swift */; };
-		F48E5F3F1E64143C0070CABB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48E5F3E1E64143C0070CABB /* GoogleService-Info.plist */; };
 		F48E5F411E6420680070CABB /* DataObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48E5F401E6420680070CABB /* DataObj.swift */; };
-		F4D40FEC1DA1A02A00976E61 /* Mathlete-Bulky.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4D40FE81DA19FFE00976E61 /* Mathlete-Bulky.otf */; };
-		F4D40FED1DA1A02D00976E61 /* Mathlete-BulkySlant.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4D40FE91DA19FFE00976E61 /* Mathlete-BulkySlant.otf */; };
-		F4D40FEE1DA1A03000976E61 /* Mathlete-Skinny.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4D40FEA1DA19FFE00976E61 /* Mathlete-Skinny.otf */; };
-		F4D40FEF1DA1A03200976E61 /* Mathlete-SkinnySlant.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4D40FEB1DA19FFE00976E61 /* Mathlete-SkinnySlant.otf */; };
 		F4D40FF51DA1EFA500976E61 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D40FF41DA1EFA500976E61 /* ContentViewController.swift */; };
 		F4D40FF71DA1FA0700976E61 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D40FF61DA1FA0700976E61 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
@@ -33,6 +30,8 @@
 /* Begin PBXFileReference section */
 		066912202AF9EB1BFF22F17C /* Pods_Thesis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thesis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9B74D523786D284123B7F0 /* Pods-Thesis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis/Pods-Thesis.release.xcconfig"; sourceTree = "<group>"; };
+		6EC7A9C820ABE1A900485315 /* Mathlete-Bulky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mathlete-Bulky.otf"; sourceTree = "<group>"; };
+		6EC7A9CC20ABE2A700485315 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B8E01CD66209283C0B712FAA /* Pods-Thesis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thesis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thesis/Pods-Thesis.debug.xcconfig"; sourceTree = "<group>"; };
 		F417C8DE1D9C3367000FFA19 /* Thesis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thesis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F417C8E11D9C3367000FFA19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,12 +47,7 @@
 		F433FF311D9CB4CC0050ECB7 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		F44D6DB41D9C9C660088FDA6 /* SceneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		F44D6DB81D9CA2820088FDA6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		F48E5F3E1E64143C0070CABB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F48E5F401E6420680070CABB /* DataObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObj.swift; sourceTree = "<group>"; };
-		F4D40FE81DA19FFE00976E61 /* Mathlete-Bulky.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mathlete-Bulky.otf"; path = "../../../../Downloads/mathlete/Mathlete-Bulky.otf"; sourceTree = "<group>"; };
-		F4D40FE91DA19FFE00976E61 /* Mathlete-BulkySlant.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mathlete-BulkySlant.otf"; path = "../../../../Downloads/mathlete/Mathlete-BulkySlant.otf"; sourceTree = "<group>"; };
-		F4D40FEA1DA19FFE00976E61 /* Mathlete-Skinny.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mathlete-Skinny.otf"; path = "../../../../Downloads/mathlete/Mathlete-Skinny.otf"; sourceTree = "<group>"; };
-		F4D40FEB1DA19FFE00976E61 /* Mathlete-SkinnySlant.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Mathlete-SkinnySlant.otf"; path = "../../../../Downloads/mathlete/Mathlete-SkinnySlant.otf"; sourceTree = "<group>"; };
 		F4D40FF41DA1EFA500976E61 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		F4D40FF61DA1FA0700976E61 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,11 +113,11 @@
 				F417C8F71D9C339B000FFA19 /* CandyMonsterScene.swift */,
 				F433FF2F1D9CB4910050ECB7 /* Animal.swift */,
 				F433FF311D9CB4CC0050ECB7 /* Food.swift */,
+				6EC7A9CC20ABE2A700485315 /* GoogleService-Info.plist */,
 				F417C8E51D9C3367000FFA19 /* Main.storyboard */,
 				F4D40FF61DA1FA0700976E61 /* PageViewController.swift */,
 				F417C8E81D9C3367000FFA19 /* Assets.xcassets */,
 				F417C8EA1D9C3367000FFA19 /* LaunchScreen.storyboard */,
-				F48E5F3E1E64143C0070CABB /* GoogleService-Info.plist */,
 				F417C8ED1D9C3367000FFA19 /* Info.plist */,
 				F4D40FF41DA1EFA500976E61 /* ContentViewController.swift */,
 			);
@@ -133,10 +127,7 @@
 		F4D40FE71DA19FE000976E61 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F4D40FE81DA19FFE00976E61 /* Mathlete-Bulky.otf */,
-				F4D40FE91DA19FFE00976E61 /* Mathlete-BulkySlant.otf */,
-				F4D40FEA1DA19FFE00976E61 /* Mathlete-Skinny.otf */,
-				F4D40FEB1DA19FFE00976E61 /* Mathlete-SkinnySlant.otf */,
+				6EC7A9C820ABE1A900485315 /* Mathlete-Bulky.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -205,12 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F417C8EC1D9C3367000FFA19 /* LaunchScreen.storyboard in Resources */,
-				F48E5F3F1E64143C0070CABB /* GoogleService-Info.plist in Resources */,
-				F4D40FEC1DA1A02A00976E61 /* Mathlete-Bulky.otf in Resources */,
-				F4D40FEF1DA1A03200976E61 /* Mathlete-SkinnySlant.otf in Resources */,
+				6EC7A9C920ABE1A900485315 /* Mathlete-Bulky.otf in Resources */,
+				6EC7A9CD20ABE2A700485315 /* GoogleService-Info.plist in Resources */,
 				F417C8E91D9C3367000FFA19 /* Assets.xcassets in Resources */,
-				F4D40FEE1DA1A03000976E61 /* Mathlete-Skinny.otf in Resources */,
-				F4D40FED1DA1A02D00976E61 /* Mathlete-BulkySlant.otf in Resources */,
 				F417C8E71D9C3367000FFA19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

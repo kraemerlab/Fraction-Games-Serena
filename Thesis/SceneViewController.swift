@@ -144,10 +144,15 @@ class SceneViewController : UIViewController {
     func writeToDatabase(_ info: String){
         let date = NSDate()
         let rootRef = FIRDatabase.database().reference()
-        let dateRef = rootRef.child(String(describing: date))
-        let dataObj = DataObj(info: info, game: gameSelected)
-        let dataRef = dateRef.child(userid)
+        let dataObj = DataObj(date: String(describing: date), info: info, game: gameSelected)
+        let dataRef = rootRef.child(userid)
         dataRef.setValue(dataObj.toAnyObject())
+//        let date = NSDate()
+//        let rootRef = FIRDatabase.database().reference()
+//        let dateRef = rootRef.child(String(describing: date))
+//        let dataObj = DataObj(info: info, game: gameSelected)
+//        let dataRef = dateRef.child(userid)
+//        dataRef.setValue(dataObj.toAnyObject())
  
     }
     

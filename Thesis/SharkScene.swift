@@ -142,12 +142,12 @@ class SharkScene : SKScene {
         feedbackLabel.position = CGPoint(x: 280, y: 30)
         
         
-        seconds = 120
-        timerLabel = SKLabelNode(fontNamed: fonts.mathlete)
-        timerLabel.text = "Time: \(seconds)"
-        timerLabel.name = nodeTypes.label
-        timerLabel.fontSize = 35.0
-        timerLabel.position = CGPoint(x: 750,y: 450)
+//        seconds = 120
+//        timerLabel = SKLabelNode(fontNamed: fonts.mathlete)
+//        timerLabel.text = "Time: \(seconds)"
+//        timerLabel.name = nodeTypes.label
+//        timerLabel.fontSize = 35.0
+//        timerLabel.position = CGPoint(x: 750,y: 450)
         
         scoreLabel = SKLabelNode(fontNamed: fonts.mathlete)
         scoreLabel.text = "Score: \(score)"
@@ -160,7 +160,7 @@ class SharkScene : SKScene {
         
         addChild(feedbackLabel)
 
-        addChild(timerLabel)
+//        addChild(timerLabel)
         addChild(scoreLabel)
     }
     
@@ -190,9 +190,11 @@ class SharkScene : SKScene {
         
         thresholdVal = values[fractionText]!
         
-        var whole = ["wholepizza.png","CutPie.png" ]//, "Whole_cake.png"]
+        var whole = ["wholepizza.png","pie.png" ]//, "Whole_cake.png"]
         
-        let pieImages:Dictionary<Double,[String]> = [0.11:["19pie.png"] , 0.22:["29pie.png"], 0.33:["39pie.png"], 0.44: ["49pie.png", "49pie-1.png"], 0.77: ["79pie.png"]]//0.25:["pie-1-4.png","pie-2-4.png","pie-3-4.png"], 0.5: ["Halfpie.png"], 0.125: ["Eighthpie.png"]]
+//        let pieImages:Dictionary<Double,[String]> = [0.11:["19pie.png"] , 0.22:["29pie.png"], 0.33:["39pie.png"], 0.44: ["49pie.png", "49pie-1.png"], 0.77: ["79pie.png"]]//0.25:["pie-1-4.png","pie-2-4.png","pie-3-4.png"], 0.5: ["Halfpie.png"], 0.125: ["Eighthpie.png"]]
+        
+        let pieImages:Dictionary<Double,[String]> = [0.08:["pie_1_12.png"] , 0.17:["pie_2_12.png"], 0.25:["pie_3_12.png"], 0.42: ["pie_5_12.png"], 0.83: ["pie_10_12.png"]]//0.25:["pie-1-4.png","pie-2-4.png","pie-3-4.png"], 0.5: ["Halfpie.png"], 0.125: ["Eighthpie.png"]]
         
         let pizzaImages:Dictionary<Double,[String]> = [0.5:["slice1-2.png","slice2-2.png"],0.33:["slice1-3.png","slice2-3.png","slice3-3.png"],0.25:["slice1-4.png","slice2-4.png","slice3-4.png","slice4-4.png"],0.125:["slice1.png","slice2.png","slice3.png","slice4.png","slice5.png","slice6.png","slice7.png","slice8.png"]]
         

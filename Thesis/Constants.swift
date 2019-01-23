@@ -82,7 +82,7 @@ struct TutorialImages {
 
 let characters = Characters(monkey: "monkey", shark: "shark", candyMonster: "monster")
 
-let tutorialDict = ["monkey":["monkey_tutorial1.png","monkey_tutorial2.png","monkey_tutorial3.png","monkey_tutorial4.png"], "shark":["shark_tutorial1.png","shark_tutorial2.png","shark_tutorial3.png"], "monster":["candy_tutorial1.png","candy_tutorial 2.png","candy_tutorial 3.png","candy_tutorial 4.png"]]
+let tutorialDict = ["monkey":["monkey_tutorial1_s.png","monkey_tutorial2_s.png","monkey_tutorial3_s.png","monkey_tutorial4.png"], "shark":["shark_tutorial1_s.png","shark_tutorial2_s.png","shark_tutorial3.png"], "monster":["candy_tutorial1_s.png","candy_tutorial 2_s.png","candy_tutorial 3_s.png","candy_tutorial 4.png"]]
 
 let tutorialImgs = TutorialImages(dict: tutorialDict)
 
